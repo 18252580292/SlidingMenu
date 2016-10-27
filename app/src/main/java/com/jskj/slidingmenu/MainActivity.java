@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void close() {
-                Toast.makeText(MainActivity.this, "close", Toast.LENGTH_SHORT).show();
             }
         });
     }
